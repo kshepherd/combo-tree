@@ -579,7 +579,7 @@
 
               this._selectedItems.push(selectedItem);
               this._selectedItem = selectedItem;
-              // If cascadeSelect is true, check all children, otherwise just check this item
+              // If cascadeSelect is true, check all children, otherwise just check this itemt remove
               if (this.options.cascadeSelect) {
                 $(selectedItemElem).find("input").prop('checked', true);
               } else {
